@@ -1,0 +1,20 @@
+file=open("tops1.txt","w")
+file.write("Hello,This is file management using in python")
+file.close()
+print("file written successfully")
+print("***************************************")
+
+file=open("tops1.txt","r")
+print(file.read())
+file.close()
+print("****************************************")
+
+file=open("tops1.txt","a")
+file.write("\nNow, this file is appended")
+file.close()
+print("****************************************")
+
+file=open("tops1.txt","r")
+print(file.read())
+file.close()
+print("****************************************")

@@ -1,0 +1,2 @@
+Hello,This is file management using in python
+Now, this file is appended
